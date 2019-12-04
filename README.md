@@ -3,9 +3,8 @@
 <br>Frontend<br>
 
 <h2>Development</h2>
-
-First, clone this repository:
-<pre>git clone </pre>
+Clone this repository:
+<pre>git clone https://github.com/Ks5810/csci-435-frontend.git</pre>
 To install dependencies, run
 <pre>yarn install</pre>
 
