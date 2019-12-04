@@ -1,0 +1,7 @@
+.section {
+  margin-bottom: $xl-size;
+  border: 1px solid lighten($light-purple, 5%);
+  padding: $s-size;
+  background-color: lighten($light-purple, 3%);
+  align-items: center;
+}
