@@ -17,6 +17,10 @@ const Search = () => (
                 <div className="section">
                     <div className="list-body">
                         Search Bar right here.
+
+                        <div>
+                            <input class="form-control" type="text" placeholder="Search Engine" aria-label="Search"></input>
+                        </div>
                     </div>
                 </div>
             </div>

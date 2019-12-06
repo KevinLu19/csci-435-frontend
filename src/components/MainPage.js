@@ -10,7 +10,11 @@ const MainPage = () => (
         <div className="container">
             <div className="container">
                 <div className="section">
-                    <div className="list-body">In Main Page
+                    <div className="list-body">
+                        <p>
+                            Course: CSCI-435 DataBase Management
+                            Title of Project: School System Schedule Project.
+                        </p>
                     </div>
                 </div>
             </div>
