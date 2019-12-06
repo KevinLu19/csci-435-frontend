@@ -13,7 +13,8 @@ import PublicRoute from "./PublicRoute";
 import PrivateRoute from "./PrivateRoute";
 import { createBrowserHistory } from "history";
 import Course from "../components/Course";
-import Announcement from "../components/Announcement";
+import Search from "../components/Search";
+import DataTables from "../components/DataTables";
 
 export const history = createBrowserHistory();
 
@@ -31,8 +32,13 @@ export default class AppRouter extends React.Component {
                             path="/course"
                             component={ Course }/>
                         <PublicRoute
-                            path="/announcement"
-                            component={ Announcement }/>
+                            path="/search"
+                            component={ Search }/>
+
+                        <PublicRoute
+                            path="/table"
+                            component={ DataTables }/>
+
                         <PublicRoute
                             path="/login"
                             component={ LoginPage }/>
