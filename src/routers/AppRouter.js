@@ -1,6 +1,7 @@
 /**
- * AppRouter.js
+ * File: AppRouter.js
  * @author [Keisuke Suzuki](https://github.com/Ks5810)
+ * Purpose: Sets up the path for each of the navigation.
  */
 
 import React from "react";
@@ -13,7 +14,8 @@ import PublicRoute from "./PublicRoute";
 import PrivateRoute from "./PrivateRoute";
 import { createBrowserHistory } from "history";
 import Course from "../components/Course";
-import Announcement from "../components/Announcement";
+import Search from "../components/Search"
+import DataTables from "../components/DataTables";
 
 export const history = createBrowserHistory();
 
@@ -31,8 +33,13 @@ export default class AppRouter extends React.Component {
                             path="/course"
                             component={ Course }/>
                         <PublicRoute
-                            path="/announcement"
-                            component={ Announcement }/>
+                            path="/search"
+                            component={ Search }/>
+
+                        <PublicRoute
+                            path="/table"
+                            component={ DataTables }/>
+
                         <PublicRoute
                             path="/login"
                             component={ LoginPage }/>

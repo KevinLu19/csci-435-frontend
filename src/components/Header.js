@@ -1,6 +1,7 @@
 /**
- * Header.js
+ * File: Header.js
  * @author [Keisuke Suzuki](https://github.com/Ks5810)
+ * Purpose: Links AppRouter to html.
  */
 
 import React from "react";
@@ -27,15 +28,15 @@ const Header = () => (
                              exact={ true }>
                         { <h2>Home</h2> }
                     </NavLink>
-                    <NavLink to="/announcement"
+                    <NavLink to="/search"
                              className="header__item"
                              activeClassName="is-active">
-                        { <h2>Announcements</h2> }
+                        { <h2>Search</h2> }
                     </NavLink>
-                    <NavLink to="/course"
+                    <NavLink to="/table"
                              className="header__item"
                              activeClassName="is-active">
-                        { <h2>Your Courses</h2> }
+                        { <h2>Data Tables</h2> }
                     </NavLink>
                 </div>
             </div>
